@@ -1,5 +1,5 @@
 {
-  "name": "PornHub",
+  "name": "userbot",
   "description": "Only For Legends..... By : @AnonymousD3061",
   "logo": "https://telegra.ph/file/516bee028bb11e4b0206f.jpg",
   "keywords": [
@@ -208,11 +208,6 @@
     "TEMP_DIR": {
       "description": ":p",
       "value": "Env",
-      "required": false
-    },
-    "UB_BLACK_LIST_CHAT": {
-      "description": "haha",
-      "value": "-100",
       "required": false
     },
     "RAVANA_LEELA": {
