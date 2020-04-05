@@ -1,14 +1,14 @@
 {
   "name": "PornHub",
-  "description": "Only For Legends..... By : @r4v4n4",
-  "logo": "https://telegra.ph/file/18cea3a9a7d9b3261dc1a.jpg",
+  "description": "Only For Legends..... By : @AnonymousD3061",
+  "logo": "https://telegra.ph/file/516bee028bb11e4b0206f.jpg",
   "keywords": [
-    "sex",
-    "porn",
-    "xxx",
-    "dick",
-    "vagina",
-    "boobs"
+    "i",
+    "love",
+    "My",
+    "telegram",
+    "user",
+    "bot"
   ],
   "repository": "https://gitlab.com/SpEcHiDe/UniBorg",
   "website": "https://telegram.dog/UniBorg",
@@ -134,11 +134,6 @@
       "description": "get it from heroku settings",
       "required": false
     },
-    "SUDO_USERS": {
-      "description": "Makes Your Account Stable.",
-      "value": "138312364",
-      "required": false
-    },
     "TZ": {
       "description": "set your default time zone for time related features to work correctly. Value should match the string here: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones",
       "value": "Asia/Kolkata",
@@ -222,7 +217,7 @@
     },
     "RAVANA_LEELA": {
       "description": "TO ADD TIME ON YOUR PROFILE PIC, ADD LINK OF IMAGE ENDING WITH .JPG",
-      "value": "https://telegra.ph/file/674ef67d845b4304823d3.jpg",
+      "value": "https://telegra.ph/file/516bee028bb11e4b0206f.jpg",
       "required": false
     },
     "TELE_GRAM_2FA_CODE": {
