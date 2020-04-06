@@ -12,7 +12,7 @@ import time
 @borg.on(admin_cmd("leave", outgoing=True))
 async def leave(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`@AnonymousD3061 is leaving this chat.....!` @admin `Goodbye aren't forever.. `")
+        await e.edit("` 🔥@CHASTISER_OFFICIAL🔥 is leaving this chat.....🚶‍♂️!` @admin `Goodbye aren't forever😎.. `")
         time.sleep(3)
         if '-' in str(e.chat_id):
             await borg(LeaveChannelRequest(e.chat_id))
