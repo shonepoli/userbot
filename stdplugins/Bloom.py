@@ -30,7 +30,7 @@ FONT_FILE_TO_USE = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 @borg.on(admin_cmd(pattern="bloom ?(.*)"))
 async def autopic(event): 
-    await event.edit("Bloom colour profile pic have been enabled © @AnonymousD3061") 
+    await event.edit("Bloom colour profile pic have been enabled © @CHASTISER_OFFICIAL") 
     downloaded_file_name = "./ravana/original_pic.png"
     downloader = SmartDL(Config.RAVANA_LEELA, downloaded_file_name, progress_bar=True)
     downloader.start(blocking=False)
