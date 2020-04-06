@@ -14,11 +14,11 @@ async def _(event):
         s_help_string = borg._plugins[splugin_name].__doc__
     else:
         s_help_string = "****:"
-    help_string = """@UniBorg ( **Custom Built By** @AnonymousD3061 ) \n**Verified Account**: ✅\n**Official Telegram account**: https://t.me/AnonymousD3061 \n
+    help_string = """@UniBorg ( **Custom Built By** @CHASTISER_OFFICIAL) \n**Verified Account**: ✅\n**Official Telegram account**: https://@CHASTISER_OFFICIAL \n
 Pithun {}
 Talethrun {}
  
-**Custom Built Fork**: https://github.com/leobrownlee/userbot""".format(
+**Custom Built Fork**: https://github.com/shonepoli/userbot""".format(
         sys.version,
         __version__
     )
@@ -64,7 +64,7 @@ async def _(event):
     plugin_name = event.pattern_match.group(1)
     if plugin_name in borg._plugins:
         help_string = borg._plugins[plugin_name].__doc__
-        unload_string = f"Use `.unloda {plugin_name}` to remove this plugin.\n           © @AnonymousD3061"
+        unload_string = f"Use `.unloda {plugin_name}` to remove this plugin.\n           © @CHASTISER_OFFICIAL"
         if help_string:
             plugin_syntax = f"Syntax for plugin **{plugin_name}**:\n\n{help_string}\n{unload_string}"
         else:
